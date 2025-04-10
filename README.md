@@ -30,7 +30,7 @@ __________________________
 
 CONNECTIONS:
 
-IR Sensor ->ARDUINO UNO
+(IR Sensor ->ARDUINO UNO):
 
 VCC -> 5V
 
@@ -38,7 +38,7 @@ GND -> GND
 
 OUT -> A0
 
-I2C LCD ->ARDUINO UNO
+(I2C LCD ->ARDUINO UNO):
 
 SDA ->A4 
 
