@@ -24,6 +24,8 @@ Here for this question the IR sensor is used to deduct the object, and then usin
 
 In this problem there will be a special case. If the object stays in the ir sensor path and does not move then the ir sensor keeps on deducting it and count will keep on increasing. So to handle that special case, I used the EXTERNAL INTERRUPT concept. Basically it defines a previous state for the pass variable when the prev state=1 and the pass=0, then the object is consider to be passed out and so the controller will count it and the count value will be displayed.
 
+And the code to execute the above mentioned fucntions is provided (TASK#2.ino).
+
 
 
 
