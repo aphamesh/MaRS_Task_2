@@ -20,7 +20,7 @@ THOUGHT PROCESS:
 
 Here for this question the IR sensor is used to deduct the object, and then using the code, which has variable 'count', which is used to count the number of objects passed by.A LCD display with I2C module is used to display the output as"Count : " and the number of objects passed by.
 
-In this problem there will be a special case: If the object stays in the ir sensor path and does not move then the ir sensor keeps on deducting it and count will keep on increasing. So to handle that special case, I used the EXTERNAL INTERRUPT concept. Basically it defines a previous state for the pass variable when the prev state=1 and the pass=0, then the object is consider to be passed out and so the controller will count it and the count value will be displayed.
+In this problem there will be a special case. If the object stays in the ir sensor path and does not move then the ir sensor keeps on deducting it and count will keep on increasing. So to handle that special case, I used the EXTERNAL INTERRUPT concept. Basically it defines a previous state for the pass variable when the prev state=1 and the pass=0, then the object is consider to be passed out and so the controller will count it and the count value will be displayed.
 
 
 
