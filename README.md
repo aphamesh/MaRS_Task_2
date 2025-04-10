@@ -49,3 +49,12 @@ VCC -> 5V
 GND -> GND
 
 __________________________
+
+
+APPLICATIONS:
+
+Object Counter: On conveyor belts in manufacturing lines.
+
+Entry Systems: To track how many entries occur through a door.
+
+Smart Shelves: To count items being picked up or placed.
