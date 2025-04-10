@@ -15,6 +15,9 @@ COMPONENTS REQUIRED:
 
 5.Breadboard 
 
+__________________________
+
+
 CONNECTIONS:
 
 IR Sensor ->ARDUINO UNO
@@ -34,3 +37,5 @@ SCL -> A5
 VCC -> 5V
 
 GND -> GND
+
+__________________________
